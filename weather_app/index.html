@@ -9,29 +9,36 @@
     <title>weather app</title>
 </head>
 <body>  
+    <!-- preloader -->
+    <div class="loader"></div>
+    <!-- header -->
     <div class="header">
         <h2>weather app</h2>
     </div>
+    <!-- weather app starts here -->
     <div class="weather-app">
         <div class="container">
             <div class="search p-3">
+                <!-- search options -->
                 <input class="form-control" type="text" id="search" name="city" placeholder="Enter city name" spellcheck="false">
                 <button class="btn btn-outline-success mx-3">search</button>
             </div>
+            <!-- weather card  -->
             <h6 style="display: none; text-align: center;" id="error" class="text-danger">error !</h6> 
             <div class="city-details">
-                <h3 id="city">amsterdam</h3>
+                <h3 id="city">city name</h3>
                 <img id="weather-img" src="/weather_app/img/clouds.png" alt="clouds">
-                <p id="weather-indicator">clouds</p>
-                <p id="description">humilate clouds</p>
-                <h1><span id="temp">18.7</span> &#186; C</h1>
+                <p id="weather-indicator">weather</p>
+                <p id="description">weather description</p>
+                <h1><span id="temp">00.00</span> &#186; C</h1>
             </div>
+            <!-- temperature details -->
             <div class="temp-details">
                 <div class="wind">
                     <img src="img/wind.png" alt="">
                     <div class="wind-stats">
                         <h3>wind</h3>
-                        <p><span id="wind-show">17.7</span> km/ph</p>
+                        <p><span id="wind-show">00.00</span> km/ph</p>
                     </div>
                 </div>
                 <div class="h-line"></div>
@@ -39,13 +46,13 @@
                     <img src="img/humidity.png" alt="">
                     <div class="humidity-stats">
                         <h3>humidity</h3>
-                        <p><span id="humidity-show">14 </span>G/Kg</p>
+                        <p><span id="humidity-show">00.00 </span>G/Kg</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>    
-
+    <!-- script link -->
     <script src="script.js"></script>
 
 </body>
