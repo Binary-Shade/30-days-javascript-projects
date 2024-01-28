@@ -24,7 +24,6 @@ Here's a quick overview of the projects included in this challenge:
 1. Day 1: [weather app]
    - Description: weather application that show the weather based on the country name.
    - Concepts Covered: asynchronous function and fetch api.
-   - Demo: ![Screenshot_20240128_144957](https://github.com/Binary-Shade/30-days-javascript-projects/assets/115919438/c49f56c1-e833-4ff4-b430-15039e7d017e);
 
 
 ## Getting Started
