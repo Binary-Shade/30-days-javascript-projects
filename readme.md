@@ -24,9 +24,12 @@ Here's a quick overview of the projects included in this challenge:
 1. Day 1: [weather app]
    - Description: weather application that show the weather based on the country name.
    - Concepts Covered: asynchronous function and fetch api.
-12. Day 2: [random password generator]
+2. Day 2: [random password generator]
    - Description: It generates a strong random 12 character password.
    - Concepts Covered: selection and random logic.
+3. Day 3: [QR code generator]
+   - Description: It generates QR code based on your text or URL.
+   - Concepts Covered: QR api and img properties.
 
 
 ## Getting Started

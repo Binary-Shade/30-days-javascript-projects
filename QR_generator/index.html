@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR generator</title>
+</head>
+<body>
+    <header>
+        <p>.</p>
+    </header>
+    <div class="container">
+        <div class="title">
+            <h3>QR code generator</h3>
+            <p>paste a URL or Enter text to create QR</p>
+        </div>
+        <div class="input">
+            <input type="text" name="" id="qr-text" placeholder="paste url or enter text"> 
+            <p id="error">URL is invalid !</p>
+            <button id="generate">Generate QR code</button>
+        </div>
+        <div class="img" style="display: none">
+            <img src="" id="qr-img">
+        </div>
+    </div>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: poppins, monospace;
+        }
+
+        body {
+            background-color: #3598DB;
+            width: 100%;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            height: max-content;
+            width: 30%;
+            margin: 4% 30%;
+            padding: 3rem;
+            border-radius: 7px;
+        }
+        .title > p {
+            font-weight: 500;
+            margin: 0.5rem 0;
+        }
+        .input > input {
+            outline: none;
+            padding: 0.6rem;
+            width: 100%;
+            margin: 0.5rem 0;
+        }
+        .input > button {
+            width: 100%;
+            height: 2.8rem;
+            background-color: #0c58f0;
+            border-radius: 7px;
+            border: 1px solid black;
+            cursor: pointer;
+        }
+        .input > button:hover {
+            background-color: #3290c2;
+        }
+        .input p {
+            opacity: 0;
+            color: red;
+            margin-bottom: 1rem;
+        }
+        .img {
+            width: 100%;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
+            margin-top: 2rem;
+        }
+
+        .img img {
+            width: 150px;
+            height: 150px;
+            background-color: transparent;
+        }
+    </style>
+    <script>
+        const btn = document.getElementById("generate");
+        const imgDiv = document.querySelector(".img");
+
+        function generateQR() {
+            const qrTxt = document.getElementById("qr-text");
+            const qrImg = document.getElementById("qr-img");
+            if(qrTxt.value!=""){
+                const apiUrl = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${qrTxt.value}`;
+                qrImg.src = apiUrl;
+                imgDiv.style.display = "flex";
+                
+            }else{
+                document.getElementById("error").style.opacity = 1;
+                imgDiv.style.display = "none";
+            }
+        }
+
+        btn.addEventListener("click", ()=> {
+            generateQR();
+        })
+
+    </script>
+</body>
+</html>
