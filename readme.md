@@ -21,15 +21,18 @@ Each project is organized into its own directory, labeled according to the day i
 
 Here's a quick overview of the projects included in this challenge:
 
-1. Day 1: [weather app]
+1. Day 1: [weather app 🌤️]
    - Description: weather application that show the weather based on the country name.
    - Concepts Covered: asynchronous function and fetch api.
-2. Day 2: [random password generator]
+2. Day 2: [random password generator 🐛]
    - Description: It generates a strong random 12 character password.
    - Concepts Covered: selection and random logic.
-3. Day 3: [QR code generator]
+3. Day 3: [QR code generator :hatching_chick:]
    - Description: It generates QR code based on your text or URL.
-   - Concepts Covered: QR api and img properties.
+   - Concepts Covered: QR api and img properties. 
+4. Day 4: [Language Translator 🇮🇳]
+   - Description: It translates the given language into selected language.
+   - Concepts Covered: translate api. 
 
 
 ## Getting Started

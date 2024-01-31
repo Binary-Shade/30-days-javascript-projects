@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/82abfe5a68.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Google translator</title>
+</head>
+<body>
+    <!-- @binary-shade -->
+    <script defer src="script.js"></script>
+    <div class="container">
+        <h2>Google powered translator</h2>
+        <div class="wrapper">
+            <div class="text-input">
+                <textarea id="input" spellcheck="false" class="input" placeholder="Enter text to transate"></textarea>
+                <div class="options">
+                    <select id="from-dropdown">
+                        <option value="auto">Auto</option>
+                        <option value="en">english</option>
+                        <option value="ta">Tamil</option>
+                        <option value="ja">Arabic</option>
+                        <option value="ar">Japanese</option>
+                    </select>
+                </div>
+            </div>
+            <div class="text-output">
+                <textarea id="output" class="output" readonly disabled placeholder="translation"></textarea>
+                <div class="options">
+                    <select id="to-dropdown">
+                        <option value="auto">Auto</option>
+                        <option value="en">english</option>
+                        <option value="ta">Tamil</option>
+                        <option value="ja">Arabic</option>
+                        <option value="ar">Japanese</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <button id="generate">transate language <i class="fa-solid fa-language"></i> </button>
+        <footer>
+            <p>coded by @binary-shade &hearts;</p>
+        </footer>  
+    </div>
+</body>
+</html>
