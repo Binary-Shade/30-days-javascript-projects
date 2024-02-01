@@ -33,6 +33,9 @@ Here's a quick overview of the projects included in this challenge:
 4. Day 4: [Language Translator 🇮🇳]
    - Description: It translates the given language into selected language.
    - Concepts Covered: translate api. 
+5. Day 5: [love calculator]
+   - Description: It generates the relationship percentage between partner.
+   - Concepts Covered: love calculator api. 
 
 
 ## Getting Started
