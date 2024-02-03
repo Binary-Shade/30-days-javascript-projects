@@ -36,6 +36,9 @@ Here's a quick overview of the projects included in this challenge:
 5. Day 5: [love calculator ❤️]
    - Description: It generates the relationship percentage between partner.
    - Concepts Covered: love calculator api. 
+6. Day 6: [to-do App 📆]
+   - Description: To-Do task application which reminds the tasks of user.
+   - Concepts Covered: todo logics. 
 
 
 ## Getting Started
