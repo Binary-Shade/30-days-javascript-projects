@@ -70,4 +70,5 @@ Feedback and suggestions for improvement are always welcome! If you have any ide
 
 ---
 
-Feel free to customize this template to better fit your style and preferences. Good luck with your JavaScript 30-Day Project Challenge! 🚀👨‍💻
+Feel free to ask me anything. Good luck with your JavaScript 30-Day Project Challenge! 
+Happy Hacking 🚀👨‍💻
