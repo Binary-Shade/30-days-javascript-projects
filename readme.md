@@ -39,6 +39,9 @@ Here's a quick overview of the projects included in this challenge:
 6. Day 6: [to-do App 📆]
    - Description: To-Do task application which reminds the tasks of user.
    - Concepts Covered: todo logics. 
+7. Day 7: [text to speech converter 💬]
+   - Description: It generates the given text into speech.
+   - Concepts Covered: web speech API. 
 
 
 ## Getting Started
