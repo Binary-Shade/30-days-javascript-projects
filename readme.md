@@ -42,6 +42,9 @@ Here's a quick overview of the projects included in this challenge:
 7. Day 7: [text to speech converter 💬]
    - Description: It generates the given text into speech.
    - Concepts Covered: web speech API. 
+8. Day 8: [color palette generator 🤍]
+   - Description: It generates random color palette based on random hex value.
+   - Concepts Covered: loops, event handlers, clipboard api, random hex. 
 
 
 ## Getting Started
