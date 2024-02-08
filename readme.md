@@ -45,6 +45,9 @@ Here's a quick overview of the projects included in this challenge:
 8. Day 8: [color palette generator 🤍]
    - Description: It generates random color palette based on random hex value.
    - Concepts Covered: loops, event handlers, clipboard api, random hex. 
+9. Day 9: [snake game Js 🐍]
+   - Description: Snake enlarges when consume food 🍎.
+   - Concepts Covered: game logics. 
 
 
 ## Getting Started
