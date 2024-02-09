@@ -65,14 +65,14 @@ body {
   grid-template: repeat(30, 1fr) / repeat(30, 1fr);
 }
 .play-board .food {
-  background: #FF003D;
+  color: #ede5e7;
+  background-color: #B8C6DC;
 }
 .play-board .head {
   background: #60CBFF;
 }
 
 .controls {
-  display: none;
   justify-content: space-between;
 }
 .controls i {
@@ -80,9 +80,12 @@ body {
   text-align: center;
   font-size: 1.3rem;
   color: #B8C6DC;
-  width: calc(100% / 4);
+  width: calc(97.5% / 4);
   cursor: pointer;
   border-right: 1px solid #171B26;
+}
+.controls i:hover,:focus {
+  color: rgb(56, 213, 56);
 }
 
 @media screen and (max-width: 800px) {

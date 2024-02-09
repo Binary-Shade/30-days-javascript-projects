@@ -1,4 +1,4 @@
-const playBoard = document.querySelector(".playground");
+const playBoard = document.querySelector(".play-board"); // Corrected selector
 const scoreElement = document.querySelector(".score");
 const highScoreElement = document.querySelector(".high-score");
 const controls = document.querySelectorAll(".controls i");
@@ -30,23 +30,23 @@ const handleGameOver = () => {
 
 const changeDirection = e => {
     // Changing velocity value based on key press
-    if(e.key === "ArrowUp" && velocityY != 1) {
+    if(e.key === "ArrowUp" && velocityY !== 1) {
         velocityX = 0;
         velocityY = -1;
-    } else if(e.key === "ArrowDown" && velocityY != -1) {
+    } else if(e.key === "ArrowDown" && velocityY !== -1) {
         velocityX = 0;
         velocityY = 1;
-    } else if(e.key === "ArrowLeft" && velocityX != 1) {
+    } else if(e.key === "ArrowLeft" && velocityX !== 1) {
         velocityX = -1;
         velocityY = 0;
-    } else if(e.key === "ArrowRight" && velocityX != -1) {
+    } else if(e.key === "ArrowRight" && velocityX !== -1) {
         velocityX = 1;
         velocityY = 0;
     }
 }
 
 // Calling changeDirection on each key click and passing key dataset value as an object
-controls.forEach(button => button.addEventListener("click", () => changeDirection({ key: button.dataset.key })));
+controls.forEach(button => button.addEventListener("click", changeDirection)); // Removed unnecessary arrow function
 
 const initGame = () => {
     if(gameOver) return handleGameOver();
@@ -90,4 +90,4 @@ const initGame = () => {
 
 updateFoodPosition();
 setIntervalId = setInterval(initGame, 100);
-document.addEventListener("keyup", changeDirection);
+document.addEventListener("keydown", changeDirection);
