@@ -48,6 +48,9 @@ Here's a quick overview of the projects included in this challenge:
 9. Day 9: [snake game Js 🐍]
    - Description: Snake enlarges when consume food 🍎.
    - Concepts Covered: game logics. 
+10. Day 10: [cookie consent 🍪]
+   - Description: cookie consent box which accept user cookies.
+   - Concepts Covered: setting cookies. 
 
 
 ## Getting Started

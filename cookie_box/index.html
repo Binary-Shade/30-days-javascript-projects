@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <title>cookie consent box</title>
+</head>
+<body>
+    <div class="wrapper">
+        <img alt="cookie" src="img/cookie.png" srcset="">
+        <div class="content">
+            <header>
+                <h2>cookie consent</h2>
+            </header>
+            <p>This website uses cookies to ensure you to get the best experience on our website.</p>
+        </div>
+        <div class="buttons">
+            <button id="accept">I understand</button>
+            <a href="#">Learn more</a>
+        </div>
+    </div>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: poppins, monospace;
+        }
+        body {
+            background-color: #FCBA7F;
+        }
+        .wrapper {
+            background-color: #fff;
+            position: fixed;
+            bottom: 30px;
+            left: 40%;
+            max-width: 365px;
+            padding: 25px 25px 30px 25px;
+            border-radius: 10px;
+            box-shadow: 1px 7px 14px -5px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+        .hide{
+            opacity: 0;
+            pointer-events: none;
+            transform: scale(0.8);
+            transition: all 0.5s ease;
+        }
+        ::selection {
+            color: #fff;
+            background-color: #FCBA7F;
+        }
+        .wrapper img {
+            width: 90px;
+        }
+        .content p{
+            color: #858585;
+            margin: 5px 0px 20px 0px;
+        }
+        .content .buttons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            outline: none;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 500;
+            border-radius: 7px;
+            cursor: pointer;
+            background-color: #FCBA7F;
+            transition: all 0.3s ease;
+        }
+        .buttons button:hover {
+            transform: scale(0.97);
+        }
+        .buttons a{
+            color: #FCBA7F;
+            font-weight: 400;
+        }
+        .buttons #accept{
+            margin: 0 10px;
+        }
+        .buttons a:focus {
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</body>
+</html>
