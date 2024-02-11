@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <title>internet connectivity check</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="toast">
+            <div class="icon">
+                <div class="wifi-icon">
+                    <i class="uil uil-wifi" id="wifi"></i>
+                </div>
+                <div class="close-icon" id="close-icon">
+                    <i class="uil uil-times"></i>
+                </div>
+            </div>
+            <div class="details">
+                <span>You are online now!</span>
+                <p>Hurray ! internet is connected</p>
+            </div>
+        </div>
+    </div>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: poppins, monospace;
+        }
+        body {
+            background-color: #f2f2f2;
+            overflow: hidden;
+        }
+        .wrapper {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 300px;
+        }
+
+        @keyframes toaster_show {
+            0%{
+                transform: translateX(100%);
+            }
+            40%{
+                transform: translateX(1%);
+            }
+            80%, 100%{
+                transform: translateX(0px);
+            }
+            
+        }
+        .show{
+            animation: toaster_show 1.5s ease;
+        }
+        .hide {
+            animation: toaster_hide 1.5s ease;
+        }
+        @keyframes toaster_hide {
+            0%{
+                transform: translateX(0px);
+            }
+            40%{
+                transform: translateX(1%);
+            }
+            80%, 100%{
+                opacity: 0;
+                pointer-events: none;
+                transform: translateX(100%);
+            }
+            
+        }
+        
+        .wrapper .toast{
+            background-color: #fff;
+            padding: 20px 15px 20px 20px;
+            border-radius: 10px;
+        }
+        .wrapper .offline{
+            border-left: 2px solid rgb(233, 41, 41);
+            box-shadow: 1px 1px 2px rgb(128, 0, 0);
+        }
+        .wrapper .online {
+            border-left: 2px solid rgb(41, 233, 121);
+            box-shadow: 1px 1px 2px green;
+        }
+        .icon {
+            display: flex;
+            justify-content: space-between;
+        }
+        .icon .close-icon :hover {
+            background-color: #af9f9f;
+            border-radius: 2px;
+            padding: 0px 2px;
+            cursor: pointer;
+        }
+        .toast .content {
+            display: flex;
+            align-items: center;
+        }
+        .content .details{
+            margin-left: #ccc;
+        }
+        .details span{
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .details p{
+            color: #878787;
+            font-size: 0.9rem;
+            border-radius: 50%;
+        }
+        
+
+        
+
+
+    </style>
+    
+    <script defer src="script.js"></script>
+</body>
+</html>
