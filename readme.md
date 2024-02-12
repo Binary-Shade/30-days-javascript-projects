@@ -51,9 +51,12 @@ Here's a quick overview of the projects included in this challenge:
 10. Day 10: [cookie consent 🍪]
    - Description: cookie consent box which accept user cookies.
    - Concepts Covered: setting cookies. 
-10. Day 10: [internet connection check ✔️]
+11. Day 11: [internet connection check ✔️]
    - Description: internet check toaster using js.
    - Concepts Covered: toaster , ajax request. 
+12. Day 12: [javascript to detect adblocker]
+   - Description: code that detects ad-blocker .
+   - Concepts Covered: ad-blocker principles. 
 
 
 ## Getting Started
