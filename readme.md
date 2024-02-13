@@ -54,9 +54,12 @@ Here's a quick overview of the projects included in this challenge:
 11. Day 11: [internet connection check ✔️]
    - Description: internet check toaster using js.
    - Concepts Covered: toaster , ajax request. 
-12. Day 12: [javascript to detect adblocker]
+12. Day 12: [javascript to detect adblocker 👾]
    - Description: code that detects ad-blocker .
    - Concepts Covered: ad-blocker principles. 
+13. Day 13: [file upload drag & drop input :droplet:]
+   - Description: user can drag and drop files .
+   - Concepts Covered: drag and drop concept . 
 
 
 ## Getting Started

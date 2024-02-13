@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/82abfe5a68.js" crossorigin="anonymous"></script>
+
+    <title>Drag and drop file</title>
+</head>
+<body>
+    <div class="drag-area">
+        <div class="icon">
+            <i class="fas fa-cloud-upload-alt"></i>
+        </div>
+        <header>
+            <h2>Drag and drop to upload file</h2>
+        </header>
+        <span>OR</span>
+        <button>Browse files</button>
+        <input type="file" class="browse" name="file" id="file" hidden>
+        <div class="profile">
+            <!-- import the image into this place -->
+        </div>
+    </div> 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: poppins, sans-serif;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            width: 100%;
+            background-color: #5256ad;
+        }
+        .drag-area {
+            border: 2px dotted #fff;
+            height: max-content;
+            width: 700px;
+            border-radius: 7px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .drag-area.active{
+            border: 2px solid #fff;
+        } 
+        .drag-area .icon {
+            font-size: 100px;
+            color: #fff;
+        }
+        span {
+            font-size: 25px;
+            font-weight: 500;
+            color: #fff;
+            margin: 10px 0 15px 0;
+        }
+        button {
+            padding: 10px 25px;
+            font-size: 1.3rem;
+            font-weight: 500;
+            border: 1px solid #fff;
+            outline: none;
+            color: #fff;
+            background-color: #5256ad;
+            border-radius: 7px;
+            cursor: pointer;
+            margin-bottom: 50px;
+        }
+        .drag-area button:hover{
+            background-color: #fff;
+            color: #000;
+            border: 1px solid #000;
+        }
+            
+        .drag-area img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 6px;
+
+        }
+        .profile{
+            display: none;
+            margin:0px 0px 50px 0px;
+            width: 500px;
+            height: 400px;
+        }
+    </style>
+
+
+    <script defer src="script.js"></script>
+</body>
+</html>
