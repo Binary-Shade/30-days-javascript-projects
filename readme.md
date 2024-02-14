@@ -60,6 +60,9 @@ Here's a quick overview of the projects included in this challenge:
 13. Day 13: [file upload drag & drop input :droplet:]
    - Description: user can drag and drop files .
    - Concepts Covered: drag and drop concept . 
+14. Day 14: [Digital clock 12 hours format]
+   - Description: shows the time and day.
+   - Concepts Covered: date() . 
 
 
 ## Getting Started
