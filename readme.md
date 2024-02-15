@@ -63,6 +63,9 @@ Here's a quick overview of the projects included in this challenge:
 14. Day 14: [Digital clock 12 hours format]
    - Description: shows the time and day.
    - Concepts Covered: date() . 
+15. Day 15: [Image slider with js]
+   - Description: slider which change image based on arrow.
+   - Concepts Covered: image slider concept. 
 
 
 ## Getting Started

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/82abfe5a68.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Image slider</title>
+</head>
+<body>
+    <div class="content">
+        <div class="images">
+            <img src="img/img1.jpeg" alt="" srcset="">
+            <img src="img/img2.jpeg" alt="" srcset="">
+            <img src="img/img3.jpeg" alt="" srcset="">
+            <img src="img/img4.jpeg" alt="" srcset="">
+            <img src="img/img2.jpeg" alt="" srcset="">
+        </div>
+        <div class="btm-slides">
+            <span onclick="btm_slide(1)"></span>
+            <span onclick="btm_slide(2)"></span>
+            <span onclick="btm_slide(3)"></span>
+            <span onclick="btm_slide(4)"></span>
+            <span onclick="btm_slide(5)"></span>
+        </div>
+        <div class="sliders left" onclick="side_slide(-1)">
+            <i class="fas fa-angle-left"></i>
+        </div>
+        <div class="sliders right" onclick="side_slide(1)">
+            <i class="fas fa-angle-right"></i>
+        </div>
+    </div>
+    <script defer src="script.js"></script>
+</body>
+</html>
+      
