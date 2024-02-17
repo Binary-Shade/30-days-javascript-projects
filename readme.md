@@ -60,12 +60,15 @@ Here's a quick overview of the projects included in this challenge:
 13. Day 13: [file upload drag & drop input :droplet:]
    - Description: user can drag and drop files .
    - Concepts Covered: drag and drop concept . 
-14. Day 14: [Digital clock 12 hours format]
+14. Day 14: [Digital clock 12 hours format] 🕥
    - Description: shows the time and day.
    - Concepts Covered: date() . 
-15. Day 15: [Image slider with js]
+15. Day 15: [Image slider with js] 🔺
    - Description: slider which change image based on arrow.
    - Concepts Covered: image slider concept. 
+16. Day 16: [form validation using js] 🐢
+   - Description: The form will submit if the requirements fullfilled.
+   - Concepts Covered: form concepts covered. 
 
 
 ## Getting Started
