@@ -69,6 +69,9 @@ Here's a quick overview of the projects included in this challenge:
 16. Day 16: [form validation using js] 🐢
    - Description: The form will submit if the requirements fullfilled.
    - Concepts Covered: form concepts covered. 
+17. Day 17: [pagination using javascript] 📄
+   - Description: prev & next page using javascript.
+   - Concepts Covered: pagination logic covered. 
 
 
 ## Getting Started
