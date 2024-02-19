@@ -72,6 +72,9 @@ Here's a quick overview of the projects included in this challenge:
 17. Day 17: [pagination using javascript] 📄
    - Description: prev & next page using javascript.
    - Concepts Covered: pagination logic covered. 
+18. Day 18: [search option implemented in Product website] 👀
+   - Description: filter out the products using search box.
+   - Concepts Covered: filter options covered. 
 
 
 ## Getting Started

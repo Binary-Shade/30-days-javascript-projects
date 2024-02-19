@@ -19,7 +19,7 @@
                 <div class="s-forms">
                     <form action="#">
                         <input type="search" id="search" placeholder="search products">
-                        <button class="btn btn-outline-primary">search</button>
+                        <button class="btn btn-outline-primary" id="searchBtn">search</button>
                     </form>
                 </div>
             </div>
@@ -33,79 +33,6 @@
             </div>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <script>
-        let products = [];
-        let itemsPerPage = 12;
-        let initialPage = 1;
-        const prevBtn = document.getElementById('prev');
-        const nextBtn = document.getElementById('next');
-        const loader = document.querySelector('.spinner');
-        const container = document.querySelector('.container');
-
-        const getProduct = async () => {
-            const url = "https://dummyjson.com/products";
-            showLoader();
-            const response = await fetch(url);
-            const data = await response.json();
-            hideLoader();
-            products = data.products;
-            console.log(products);
-        }
-
-        const loadproduct = async () => {
-            await getProduct();
-            console.log(products);
-            //-> pagination here
-
-            const pages = [];
-            for(let i=0; i<= Math.ceil(products.length / itemsPerPage); i++){
-                pages.push(products[i]);
-            }
-
-            const indexOfLastPage = initialPage * itemsPerPage;
-            const indexOfFirstPage = indexOfLastPage - itemsPerPage;
-            const currentItems = products.slice(indexOfFirstPage, indexOfLastPage); //-> it will give 5,6,7,8,9 products
-
-            const productContainer = document.getElementById('product_container');
-            productContainer.innerHTML = currentItems.map((product)=>{
-                return `
-                <div class='col-lg-3 col-md-4 col-sm-6 productBox'> 
-                    <img src='${product.images[0]}' alt='${product.title}' /> 
-                    <h4 > ${product.title} </h4>
-                    <p> Price : ${product.price} $</p>
-                </div>`;
-            }).join("");
-        }
-        loadproduct();
-
-        prevBtn.onclick = () => {
-            if((initialPage - 1) * itemsPerPage){
-                initialPage-- ;
-                loadproduct();
-            }
-        }
-        nextBtn.onclick = () => {
-            const nextItemOfPage = (initialPage) * itemsPerPage ;
-            if(nextItemOfPage < products.length){
-                initialPage++ ;
-                loadproduct();
-            }
-        }
-        function showLoader(){
-            loader.classList.remove('hide');
-            container.classList.add('blur');
-        }
-        function hideLoader(){
-            loader.classList.add('hide');
-            container.classList.remove('blur');
-        }
-
-        const searchProduct = () => {
-            
-        }
-        
-
-    </script>
+    <script defer src="script.js"> </script>
   </body>
 </html>
