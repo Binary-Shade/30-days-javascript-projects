@@ -75,6 +75,9 @@ Here's a quick overview of the projects included in this challenge:
 18. Day 18: [search option implemented in Product website] 👀
    - Description: filter out the products using search box.
    - Concepts Covered: filter options covered. 
+19. Day 19: [star rating system using JS] ⭐
+   - Description: user can rate using stars
+   - Concepts Covered: css child selectors and JS style manipulation. 
 
 
 ## Getting Started
