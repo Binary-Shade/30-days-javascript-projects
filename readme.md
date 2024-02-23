@@ -78,6 +78,9 @@ Here's a quick overview of the projects included in this challenge:
 19. Day 19: [star rating system using JS] ⭐
    - Description: user can rate using stars
    - Concepts Covered: css child selectors and JS style manipulation. 
+19. Day 19: [star rating system using JS] ⭐
+   - Description: user can rate using stars
+   - Concepts Covered: css child selectors and JS style manipulation. 
 
 
 ## Getting Started
