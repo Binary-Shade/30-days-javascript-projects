@@ -78,7 +78,12 @@ Here's a quick overview of the projects included in this challenge:
 19. Day 19: [star rating system using JS] ⭐
    - Description: user can rate using stars
    - Concepts Covered: css child selectors and JS style manipulation. 
-
+20. Day 20: [hamburger menu using js] 🍔
+   - Description: Hamburger menu using Js.
+   - Concepts Covered: How nav menu works with hamburger on small display. 
+21. Day 21: [movie suggestion app using js] 🎥
+   - Description: Movie app using js api.
+   - Concepts Covered: movie api concept. 
 
 
 ## Getting Started
