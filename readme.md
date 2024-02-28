@@ -84,6 +84,9 @@ Here's a quick overview of the projects included in this challenge:
 21. Day 21: [movie suggestion app using js] 🎥
    - Description: Movie app using js api.
    - Concepts Covered: movie api concept. 
+22. Day 22: [ Type writer effect using js] 🖐️
+   - Description: type and delete certain words in list.
+   - Concepts Covered: type concept. 
 
 
 ## Getting Started
