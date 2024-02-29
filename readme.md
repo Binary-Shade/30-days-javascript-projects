@@ -86,7 +86,8 @@ Here's a quick overview of the projects included in this challenge:
    - Concepts Covered: movie api concept. 
 22. Day 22: [ Type writer effect using js] 🖐️
    - Description: type and delete certain words in list.
-   - Concepts Covered: type concept. 
+   - Concepts Covered: type concept. .
+
 
 
 ## Getting Started
