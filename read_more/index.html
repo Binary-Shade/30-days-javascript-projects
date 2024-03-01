@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- coder shade -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read more</title>
+</head>
+<body>
+    <!-- section about calisthenics -->
+    <section class="calis">
+        <p>Calisthenics, a form of exercise rooted in bodyweight movements, emphasizes strength, flexibility, and endurance without relying on weights or machines. Its repertoire includes push-ups, pull-ups, squats, and planks, among others, promoting functional fitness and athleticism. <span id="dots"> ... </span></p>
+        <p class="hidden" id="more">
+            Versatile and accessible, calisthenics caters to diverse fitness levels and goals, offering scalable variations and progressions. It fosters not just physical prowess but also mental resilience, as practitioners continually challenge themselves to master new skills and push their limits. With its emphasis on natural movements and minimal equipment requirements, calisthenics embodies a holistic approach to fitness that can be practiced anywhere, making it a popular choice for enthusiasts worldwide.
+        </p>
+        <button class="btn-read-more" id="btn"> Read more </button>
+    </section>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'poppins', sans-serif;
+        }
+
+        .hidden {
+            display: none;
+        }
+        body {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgb(140, 136, 136);
+        }
+        .calis {
+            display: block;
+            background: rgb(247, 245, 245);
+            width: 40%;
+            line-height: 2rem;
+            padding: 2rem;
+            border-radius: 7px;
+            height: max-content;
+        }
+        .btn-read-more {
+            padding: 7px;
+            margin: 2rem 0;
+            background-color: rgb(64, 64, 233);
+            border-radius: 4px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .btn-read-more:hover {
+            background: rgb(125, 125, 208);
+            transform: scale(102%);
+        }
+    </style>
+    <script>
+        const btn = document.getElementById('btn');
+        const more = document.getElementById('more');
+        isEnables = false;
+
+        btn.onclick = () => {
+            more.classList.toggle('hidden');
+            isEnables = !isEnables;
+            btn.innerText = isEnables ? 'Read less' : 'Read More';
+        }
+
+    </script>
+</body>
+</html>
