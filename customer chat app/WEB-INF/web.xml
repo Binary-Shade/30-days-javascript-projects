@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+    <display-name>BPOServlet</display-name>
+  
+    <servlet>
+        <servlet-name>BPOServlet</servlet-name>
+        <servlet-class>BPOServlet</servlet-class>
+    </servlet>
+  
+    <servlet-mapping>
+        <servlet-name>BPOServlet</servlet-name>
+        <url-pattern>/bposervlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
