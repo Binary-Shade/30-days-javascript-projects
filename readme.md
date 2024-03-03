@@ -90,6 +90,9 @@ Here's a quick overview of the projects included in this challenge:
 23. Day 23: [ Read more & Less Button] 📚
    - Description: Read more and less using a button in js.
    - Concepts Covered: DOM manipulation and style control of css. 
+24. Day 24: [ customer support chat app] 🐝
+   - Description: customer support chat app using js and java servlet.
+   - Concepts Covered: json and java servlet api. 
 
 
 ## Getting Started
