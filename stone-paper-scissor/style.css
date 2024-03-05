@@ -1,0 +1,57 @@
+body {
+    font-family: "poppins", monospace;
+    font-weight: 600;
+    width: 100vh;
+    background-color: #3c096c57;
+}
+.container{
+    margin: 12% 65%;
+    width: max-content;
+    height: max-content;
+    background-color: #ffffff;
+    padding: 30px 80px;
+    border-radius: 12px;
+}
+h2, p {
+    text-align: center;
+    text-transform: uppercase;
+}
+button {
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: inherit;
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+}
+button:hover {
+    background-color: rgba(164, 44, 239, 0.679);
+    color: white;
+}
+.heading h4 {
+    display: inline-block;
+    text-transform: capitalize;
+    color: rgb(70, 26, 215);
+}
+.heading h4:last-child {
+    color: rgb(230, 20, 20);
+    margin-left: 400px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+}
+#pcimg{
+    margin-left: 150px;
+}
+
+.imgContent {
+    margin-bottom: 100px;    
+}
+.buttons button:nth-last-child(-n+2) {
+    margin-left: 120px;
+}
+    

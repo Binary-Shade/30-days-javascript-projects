@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,200;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>rock paper scissors</title>
+</head>
+<body>
+    <div class="container">
+        <h2>rock-paper-scissors game</h2>
+        <div class="heading">
+            <h4>human</h4>
+            <h4>computer</h4>
+        </div>
+        <div class="imgContent">
+            <img src="icons/k.png" alt="user" id="userimg">
+            <img src="icons/pc.png" alt="pc" id="pcimg">
+        </div>
+        <div class="buttons">
+            <button data-value="rock">rock</button>
+            <button data-value="paper">paper</button>
+            <button data-value="scissors">scissors</button>
+        </div>
+    <p id="display"></p>
+    </div>
+<script>
+const buttons = document.querySelectorAll("button");
+const display = document.getElementById("display");
+const userimg = document.getElementById("userimg");
+const botImg = document.getElementById("pcimg");
+
+buttons.forEach(button => {
+    button.addEventListener("click", (e)=> {
+        calculate(e.target.dataset.value);
+    })
+})
+
+function calculate(userChoice){
+    const random = Math.floor((Math.random()*3)+1);
+    const options = {
+        1: "rock",
+        2: "paper",
+        3: "scissors"
+    };
+    const computerChoice = options[random];
+    const result = computerChoice === "paper" && userChoice === "rock" || computerChoice === "rock" && userChoice === "scissors" || computerChoice === "scissors" && userChoice === "paper" ? "you lose" : computerChoice === "rock" && userChoice === "paper" || computerChoice === "scissors" && userChoice === "rock" || computerChoice === "paper" && userChoice === "scissors" ? "you won!": "match draw" ;
+    display.innerHTML = result;
+    // console.log(result);
+    userimageChange(userChoice);
+    botimageChange(computerChoice);
+}
+
+function userimageChange(userChoice){
+    if(userChoice === "rock"){
+    userimg.src = "icons/rock.png";   
+}else if (userChoice === "paper") {
+    userimg.src = "icons/paper.png"
+} else {
+    userimg.src = "icons/scissors.png"                
+};
+
+}
+function botimageChange(botChoice){
+    if(botChoice === "rock"){
+        botImg.src = "icons/rock.png";   
+    }else if (botChoice === "paper") {
+        botImg.src = "icons/paper.png"
+    } else {
+        botImg.src = "icons/scissors.png"                
+    };
+}
+</script>
+</body>
+</html>
