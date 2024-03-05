@@ -93,6 +93,9 @@ Here's a quick overview of the projects included in this challenge:
 24. Day 24: [ customer support chat app] 🐝
    - Description: customer support chat app using js and java servlet.
    - Concepts Covered: json and java servlet api. 
+25. Day 25: [ stone paper scissor game] 🎮
+   - Description: stone paper scissor game with JS no library. 
+   - Concepts Covered: game logics and some concepts. 
 
 
 ## Getting Started
