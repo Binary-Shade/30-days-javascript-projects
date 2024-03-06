@@ -95,7 +95,7 @@ Here's a quick overview of the projects included in this challenge:
    - Concepts Covered: json and java servlet api. 
 25. Day 25: [ stone paper scissor game] 🎮
    - Description: stone paper scissor game with JS no library. 
-   - Concepts Covered: game logics and some concepts. 
+   - Concepts Covered: game logics and some concepts. .
 
 
 ## Getting Started
