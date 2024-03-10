@@ -98,7 +98,7 @@ Here's a quick overview of the projects included in this challenge:
    - Concepts Covered: game logics and some concepts. .
 26. Day 26: [ working calculator] 📱
    - Description: calculator using jquery.js library. 
-   - Concepts Covered: jquery logics and handlers. . .
+   - Concepts Covered: jquery logics and handlers..;
 
 
 ## Getting Started
