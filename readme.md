@@ -99,7 +99,9 @@ Here's a quick overview of the projects included in this challenge:
 26. Day 26: [ working calculator] 📱
    - Description: calculator using jquery.js library. 
    - Concepts Covered: jquery logics and handlers..
-27. Day 27: 
+27. Day 27: [ Quote generator Js] 📄
+   - Description: Random quote using js.
+   - Concepts: randomizer in js.
 
 
 ## Getting Started
