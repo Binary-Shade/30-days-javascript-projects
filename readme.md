@@ -96,12 +96,15 @@ Here's a quick overview of the projects included in this challenge:
 25. Day 25: [ stone paper scissor game] 🎮
    - Description: stone paper scissor game with JS no library. 
    - Concepts Covered: game logics and some concepts. .
-26. Day 26: [ working calculator] 📱
+26. Day 26: [ working calculator] :iphone:
    - Description: calculator using jquery.js library. 
-   - Concepts Covered: jquery logics and handlers..
+   - Concepts Covered: jquery logics and handlers.
 27. Day 27: [ Quote generator Js] 📄
    - Description: Random quote using js.
    - Concepts: randomizer in js.
+28. Day 28: [ parallax gsap ] 🥗
+   - Description: parallax site using gsap.
+   - Concepts: gsap scrolltrigger.
 
 
 ## Getting Started
