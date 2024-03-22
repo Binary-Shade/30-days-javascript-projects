@@ -104,7 +104,8 @@ Here's a quick overview of the projects included in this challenge:
    - Concepts: randomizer in js.
 28. Day 28: [ parallax gsap ] 🥗
    - Description: parallax site using gsap.
-   - Concepts: gsap scrolltrigger...
+   - Concepts: gsap scrolltrigger.
+29.
 
 
 ## Getting Started
