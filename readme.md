@@ -2,7 +2,7 @@
 
 Welcome to my JavaScript 30-Day Project Challenge repository! Here, you'll find a collection of JavaScript projects that I'll be uploading daily for the next 30 days. Each project aims to showcase different aspects of JavaScript, ranging from beginner to advanced topics.
 
-## About
+## About.
 
 This repository is a personal challenge aimed at improving my JavaScript skills and building a diverse portfolio of projects. Through this journey, I hope to explore various JavaScript concepts, experiment with different libraries and frameworks, and ultimately grow as a developer.
 
