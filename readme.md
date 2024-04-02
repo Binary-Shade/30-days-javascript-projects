@@ -105,7 +105,7 @@ Here's a quick overview of the projects included in this challenge:
 28. Day 28: [ parallax gsap ] 🥗
    - Description: parallax site using gsap.
    - Concepts: gsap scrolltrigger.
-29.
+29. Day 29; [ ]
 
 
 ## Getting Started
