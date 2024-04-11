@@ -138,4 +138,4 @@ Feedback and suggestions for improvement are always welcome! If you have any ide
 ---
 
 Feel free to ask me anything. Good luck with your JavaScript 30-Day Project Challenge! 
-Happy Hacking 🚀👨‍💻
+Happy Hacking 🚀👨‍💻 ..
