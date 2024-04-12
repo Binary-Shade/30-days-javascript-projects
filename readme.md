@@ -123,6 +123,7 @@ To explore these projects or contribute to this repository, follow these steps:
    ```
    cd 30-days-javascript-projects/
    ```
+   ,.,.,.,.,.,.,.,..,.,
 
 3. Open the project files in your preferred code editor and explore the code!
 
