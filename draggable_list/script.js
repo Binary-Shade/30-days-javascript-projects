@@ -22,6 +22,7 @@ const getPosition = ( value ) => {
 
 const dragstart = (e) => {
     // console.log(e);
+    currentElement = e.target;
 }
 
 const dragover = (e) => {
@@ -48,6 +49,7 @@ window.onload = async() =>{
     await listCreator(5);
     let listItems = document.querySelectorAll('.list-item');
     listItems.forEach(item=>{
+        item.draggable = true;
         item.addEventListener('dragstart', dragstart, false);
         item.addEventListener('dragover', dragover, false);
         item.addEventListener('drop', droppper, false);

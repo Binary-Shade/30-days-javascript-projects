@@ -2,7 +2,7 @@
 
 Welcome to my JavaScript 30-Day Project Challenge repository! Here, you'll find a collection of JavaScript projects that I'll be uploading daily for the next 30 days. Each project aims to showcase different aspects of JavaScript, ranging from beginner to advanced topics.
 
-## About.
+## About
 
 This repository is a personal challenge aimed at improving my JavaScript skills and building a diverse portfolio of projects. Through this journey, I hope to explore various JavaScript concepts, experiment with different libraries and frameworks, and ultimately grow as a developer.
 
@@ -105,8 +105,10 @@ Here's a quick overview of the projects included in this challenge:
 28. Day 28: [ parallax gsap ] 🥗
    - Description: parallax site using gsap.
    - Concepts: gsap scrolltrigger.
-29. Day 29; [ Draggable list] 📓
-   - Description: Draggable list made with JS
+28. Day 29: [ Draggable list order ] 👍
+   - Description: draggable list using JS
+   - Concepts: list ordering and drag & drop
+
 
 ## Getting Started
 
@@ -123,7 +125,6 @@ To explore these projects or contribute to this repository, follow these steps:
    ```
    cd 30-days-javascript-projects/
    ```
-   ,.,.,.,.,.,.,.,..,.,
 
 3. Open the project files in your preferred code editor and explore the code!
 
@@ -139,4 +140,4 @@ Feedback and suggestions for improvement are always welcome! If you have any ide
 ---
 
 Feel free to ask me anything. Good luck with your JavaScript 30-Day Project Challenge! 
-Happy Hacking 🚀👨‍💻 ..
+Happy Hacking 🚀👨‍💻
