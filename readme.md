@@ -132,7 +132,7 @@ To explore these projects or contribute to this repository, follow these steps:
 
 Feedback and suggestions for improvement are always welcome! If you have any ideas for future projects or improvements to existing ones, feel free to open an issue or submit a pull request.
 
-## Connect
+## Connect...
 
 - **GitHub**: https://github.com/binary-shade
 - **Email**: 02042003sureshk@gmail.com
