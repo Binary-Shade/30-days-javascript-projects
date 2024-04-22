@@ -105,7 +105,7 @@ Here's a quick overview of the projects included in this challenge:
 28. Day 28: [ parallax gsap ] 🥗
    - Description: parallax site using gsap.
    - Concepts: gsap scrolltrigger.
-28. Day 29: [ Draggable list order ] 👍
+29. Day 29: [ Draggable list order ] 👍
    - Description: draggable list using JS
    - Concepts: list ordering and drag & drop
 
