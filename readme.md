@@ -108,7 +108,6 @@ Here's a quick overview of the projects included in this challenge:
 29. Day 29: [ Draggable list order ] 👍
    - Description: draggable list using JS
    - Concepts: list ordering and drag & drop
-............................................
 
 ## Getting Started
 
