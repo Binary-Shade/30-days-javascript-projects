@@ -33,6 +33,8 @@ dropArea.addEventListener('drop', (e)=> {
     showFile();
 })
 
+
+
 const showFile = () => {
     let fileType = file.type;
     let validTypes = ['image/jpeg', 'image/png', 'image/jpg'];
