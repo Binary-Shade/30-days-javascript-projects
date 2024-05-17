@@ -107,7 +107,7 @@ Here's a quick overview of the projects included in this challenge:
    - Concepts: gsap scrolltrigger.
 29. Day 29: [ Draggable list order ] 👍
    - Description: draggable list using JS
-   - Concepts: list ordering and drag & drop
+   - Concepts: list ordering and drag & drop list
 
 ## Getting Started
 
