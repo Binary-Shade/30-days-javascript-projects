@@ -6,7 +6,7 @@ Welcome to my JavaScript 30-Day Project Challenge repository! Here, you'll find 
 
 This repository is a personal challenge aimed at improving my JavaScript skills and building a diverse portfolio of projects. Through this journey, I hope to explore various JavaScript concepts, experiment with different libraries and frameworks, and ultimately grow as a developer.
 
-## Project Structure.
+## Project Structure.,
 
 Each project is organized into its own directory, labeled according to the day it was completed. Within each directory, you'll find the project files along with a README.md file providing details about the project and the concepts it covers.
 
